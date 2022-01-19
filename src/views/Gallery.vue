@@ -21,7 +21,7 @@
         </div>
         <div class="content-gallery__btn">
           
-          <router-link to="/" class="content-gallery__link-home">Купить билеты</router-link>
+          <router-link to="#callback" class="_popup-link">Купить билеты</router-link>
           
         </div>
       </div>

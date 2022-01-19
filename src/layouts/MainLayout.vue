@@ -35,15 +35,17 @@
 			</div>  
       </main>  
 	</div>
+	<Popup />
 </template>
 
 <script>
 import Header from '@/components/Header'
+import Popup from '@/components/Popup'
 
 export default {
 	name: 'main-layout',	
 	components: {
-		Header
+		Header, Popup
 	}
 }
 </script>

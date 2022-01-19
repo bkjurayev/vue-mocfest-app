@@ -9,7 +9,7 @@
 		
 		</div>
 	</div>
-</template>
+</template> 
 
 
 <script>
@@ -24,7 +24,13 @@ export default {
       {title: 'New Matters', date: '8-24 апреля', time: '10:00'},
       {title: 'Cinema Love', date: '15-17 апреля, 22-24 апреля', time: '10:00'},
     ]
-  })
+  }),
+  methods: {
+    increment() {
+      this.$store.commit('increment')
+      console.log(this.$store.state.count)
+    }
+  }
 }
 </script>
   
